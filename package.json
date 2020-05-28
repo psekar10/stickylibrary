@@ -49,7 +49,7 @@
     "build": "next build",
     "start": "node index.js",
     "postinstall": "next build",
-    "now-build": "next build"
+    "now-build": "next build && next export -o dist"
   },
   "engines": {
     "node": "12.14.x"
